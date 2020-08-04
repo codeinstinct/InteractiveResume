@@ -2,17 +2,18 @@
 	page-break-before:auto;	
 }
 
-	.collapsible-component h4 {
-		border: 1px solid transparent;
+	.collapsible-component .header {
+		/*border: 1px solid transparent;*/
 		border-radius: 0.1em;
+		padding:0.2em;
 	}
 
-	.collapsible-component h4:hover {
-		cursor: pointer;
-		border:1px solid gray;
-		
-	}
+		.collapsible-component .header:hover {
+			cursor: pointer;
+			background-color: #eeeeee;
+			/*border:1px solid gray;*/
+		}
 
-	.collapsible-component h4:focus {
-		background-color: orange;
+	.collapsible-component .header:active {
+		background-color: #dddddd;
 	}
